@@ -1,0 +1,55 @@
+.projetos {
+    padding: 120px 10%;
+  }
+  
+  .projeto {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .projeto-descricao {
+    flex: 1;
+  }
+  
+  .projeto-descricao h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .projeto-descricao p {
+    line-height: 1.7;
+    color: #b3b3b3;
+  }
+  
+  .projeto-info {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .projeto-info img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #e59800;
+    color: #e59800;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .links a:hover {
+    background: #e59800;
+    color: black;
+  }
