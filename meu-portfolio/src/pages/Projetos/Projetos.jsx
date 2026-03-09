@@ -1,18 +1,19 @@
 import React from "react";
-// Importando componentes do Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 
-// Importando estilos do Swiper
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
-// Importe suas imagens
 import imgVenda1 from "../Projetos/img/HsVenda.png";
 import imVenda from "../Projetos/img/Venda.png";
 import init from "../Projetos/img/initi.png";
+import michelebrito from "../Projetos/img/michelebrito.png";
+import springboot from "../Projetos/img/logospring.png";
+import imagemBook from "../Projetos/img/image.png"
+import imageOnetoOne from "../Projetos/img/OneToone.png";
 
 
 function Projetos() {
@@ -28,12 +29,21 @@ function Projetos() {
     },
     {
       id: 2,
-      titulo: "Projeto Exemplo 02",
-      descricao: "Breve descrição do seu segundo projeto com múltiplos prints.",
-      tecnologias: "React, Node.js",
-      imagens: ["https://via.placeholder.com/500x300", "https://via.placeholder.com/500x301"],
-      linkRepo: "#",
-      linkRef: "#"
+      titulo: "Projeto_Book",
+      descricao: "Esse projeto se iniciou como um aplicação simples paraa conprenção das notações @OneToMany e @ManyToOne, mas evoluiu para um sistema de gerenciamento de livros, permitindo cadastro de livros relacionamento ente publicadora e autor.",
+      tecnologias: "React, Node.js,Spring Boot, PostgreSQL",
+      imagens: [imagemBook,imageOnetoOne],
+      linkRepo: "https://github.com/BUR1T1/Projeto_Book",
+      linkRef: "https://www.youtube.com/watch?v=Ca30sv9EbLo&t=4105s"
+    },
+    {
+      id: 3,
+      titulo: "Spring-Boot-3-Curso-Completo-2023-Michelli-Brito-API-RESTful",
+      descricao: "Esta é uma API RESTful completa para gerenciamento de produtos, desenvolvida durante o curso de Spring Boot 3 da Michelli Brito. O projeto foca em boas práticas, imutabilidade com Java Records e persistência relacional com PostgreSQL.",
+      tecnologias: "Spring Boot, PostgreSQL",
+      imagens: [michelebrito,springboot],
+      linkRepo: "https://github.com/BUR1T1/Projeto_Book",
+      linkRef: "https://www.youtube.com/watch?v=wlYvA2b1BWI&t=6296s"
     }
   ];
 
@@ -79,8 +89,8 @@ function Projetos() {
                 style={{
                   borderRadius: "15px",
                   boxShadow: "0 20px 40px rgba(0,0,0,0.3)",
-                  "--swiper-navigation-color": "#e59800",
-                  "--swiper-pagination-color": "#e59800",
+                  "--swiper-navigation-color": "#ffffff00",
+                  "--swiper-pagination-color": "#e5990000",
                 }}
               >
                 {projeto.imagens.map((src, idx) => (
