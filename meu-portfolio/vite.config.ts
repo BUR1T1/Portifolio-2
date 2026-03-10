@@ -10,4 +10,6 @@ export default defineConfig({
       },
     }),
   ],
+  // ADICIONE ESTA LINHA:
+  base: '/nome-do-seu-repositorio/', 
 })
