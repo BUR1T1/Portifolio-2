@@ -1,5 +1,5 @@
 # Meu Portfólio
-<img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/67b2ed04-3277-4534-8f53-cc3fe674a032" />
+<img width="1600" height="1039" alt="image" src="https://github.com/user-attachments/assets/5d1fea6e-6a43-4df2-a4d5-0cf324552c13" />
 
 ## Sobre Mim
 Olá! Eu sou **Otavio Caetano Ribeiro**, um Desenvolvedor focado no ecossistema **Java**. Atualmente curso Engenharia de Software na Universidade Positivo e atuo como estagiário em suporte técnico focado em sistemas SaaS.
