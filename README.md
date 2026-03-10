@@ -1,4 +1,4 @@
-# Meu Portfólio Profissional
+# Meu Portfólio
 <img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/67b2ed04-3277-4534-8f53-cc3fe674a032" />
 
 ## Sobre Mim
