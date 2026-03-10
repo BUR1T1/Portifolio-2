@@ -11,5 +11,5 @@ export default defineConfig({
     }),
   ],
   // ADICIONE ESTA LINHA:
-  base: '/nome-do-seu-repositorio/', 
+  base: '/Portifolio-2/',
 })
