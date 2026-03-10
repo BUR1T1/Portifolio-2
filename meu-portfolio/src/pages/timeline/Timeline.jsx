@@ -14,7 +14,7 @@ function Timeline() {
 
             <div className="timeline-content">
                 <span className="date">2024 - Presente</span>
-                <h3>Estagiário em Suporte Técnico (SaaS)</h3>
+                <h3>Estagiário em Suporte Técnico N2 (SaaSTec Lebs)</h3>
                 <h4>SaaSTec Labs • Presencial</h4>
                 <p>
                   Atuação em suporte técnico a sistemas SaaS, com foco em
