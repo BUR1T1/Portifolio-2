@@ -48,7 +48,7 @@ function Projetos() {
   ];
 
   return (
-    <section style={{ padding: "120px 10%", backgroundColor: "black" }}>
+    <section style={{ padding: "120px 10%", backgroundColor: "#1a1a1a" }}>
       <h2 style={{ fontSize: "38px", marginBottom: "60px", color: "#fff" }}>Projetos</h2>
 
       <div style={{ display: "flex", flexDirection: "column", gap: "100px" }}>
@@ -63,11 +63,10 @@ function Projetos() {
               flexWrap: "wrap"
             }}
           >
-            {/* Lado do Texto */}
             <div style={{ flex: "1 1 400px" }}>
               <h3 style={{ fontSize: "28px", marginBottom: "20px", color: "#e59800" }}>{projeto.titulo}</h3>
-              <p style={{ color: "#b3b3b3", lineHeight: "1.8", marginBottom: "15px" }}>{projeto.descricao}</p>
-              <p style={{ color: "#64748b", fontSize: "14px", fontStyle: "italic" }}>
+              <p style={{ color: "#ffffff", lineHeight: "1.8", marginBottom: "15px" }}>{projeto.descricao}</p>
+              <p style={{ color: "#ff8400", fontSize: "14px", fontStyle: "italic" }}>
                 <strong>Tecnologias:</strong> {projeto.tecnologias}
               </p>
               <div style={{ display: "flex", gap: "20px", marginTop: "30px" }}>
@@ -76,11 +75,10 @@ function Projetos() {
               </div>
             </div>
 
-            {/* Lado do Slider de Imagens */}
             <div style={{ flex: "1 1 400px", maxWidth: "600px", width: "100%" }}>
               <Swiper
                 modules={[Navigation, Pagination, Autoplay, EffectFade]}
-                effect="fade" // Efeito de transição suave
+                effect="fade"
                 fadeEffect={{ crossFade: true }}
                 navigation
                 pagination={{ clickable: true }}

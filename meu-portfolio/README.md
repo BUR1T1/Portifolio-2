@@ -1,75 +1,59 @@
-# React + TypeScript + Vite
+# 🚀 Meu Portfólio Profissional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Banner do Portfólio](../meu-portfolio//src/assets/img.jpeg)
 
-Currently, two official plugins are available:
+## 👤 Sobre Mim
+Olá! Eu sou **Otavio Caetano Ribeiro**, um Desenvolvedor focado no ecossistema **Java**. Atualmente curso Engenharia de Software na Universidade Positivo e atuo como estagiário em suporte técnico focado em sistemas SaaS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é o meu portfólio pessoal, construído como uma **SPA (Single Page Application)** para apresentar minha trajetória, projetos e habilidades técnicas de forma interativa e elegante.
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠️ Tecnologias Principais
 
-Note: This will impact Vite dev & build performances.
+### **Backend**
+* **Linguagens:** Java, Python, C.
+* **Frameworks:** Spring Boot (Spring Security, JPA, Hibernate).
+* **Arquitetura:** Microserviços, REST APIs.
+* **Banco de Dados:** PostgreSQL, SQL Server, SQLite.
 
-## Expanding the ESLint configuration
+### **Frontend & Desktop**
+* **Web:** React, Next.js, Angular, JavaScript/TypeScript.
+* **Desktop:** JavaFX com Scene Builder.
+* **Estilização:** CSS3 (Flexbox, Grid, Keyframes), Tailwind.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🌟 Destaques do Projeto
+* **SPA Navigation:** Navegação fluida entre seções com `scroll-behavior: smooth`.
+* **Timeline Interativa:** Exibição da trajetória acadêmica e profissional com design responsivo.
+* **Design Moderno:** Interface escura (*Dark Mode*) com detalhes em dourado e efeitos de vidro (*Glassmorphism*).
+* **Formulário de Contato:** Integrado para recebimento de mensagens diretamente no e-mail.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Como Executar o Projeto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/BUR1T1/Projeto_Book.git](https://github.com/BUR1T1/Projeto_Book.git)
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📧 Contato
+Sinta-se à vontade para entrar em contato comigo para colaborações ou oportunidades!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU_LINK)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BUR1T1)
+
+---
+*Desenvolvido por Otavio Caetano Ribeiro.*

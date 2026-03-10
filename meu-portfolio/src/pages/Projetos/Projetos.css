@@ -1,5 +1,6 @@
 .projetos {
     padding: 120px 10%;
+    background-color: #1a1a1a;
   }
   
   .projeto {
@@ -51,5 +52,5 @@
   
   .links a:hover {
     background: #e59800;
-    color: black;
+    color: #000000,;
   }
