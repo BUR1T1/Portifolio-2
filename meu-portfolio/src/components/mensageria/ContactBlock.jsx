@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import './contactBlock.css';
+import './ContactBlock.css';
 
 function ContactBlock() {
   const [method, setMethod] = useState('email'); 
