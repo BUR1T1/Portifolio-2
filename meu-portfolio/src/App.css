@@ -44,6 +44,8 @@ body {
     mask-image: linear-gradient(to right, black 75%, transparent 100%);
 }
 
+
+
 .hero-content {
     flex: 1;
     background: transparent;
