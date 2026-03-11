@@ -11,7 +11,7 @@ import imgVenda1 from "./img/HsVenda.png";
 import imVenda from "./img/Venda.png";
 import init from "./img/initi.png";
 import michelebrito from "./img/michelebrito.png";
-import springboot from "./img/logospring.png";
+import springboot from "./img/logoSpring.png";
 import imagemBook from "./img/image.png"
 import imageOnetoOne from "./img/OneToone.png";
 
