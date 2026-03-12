@@ -55,6 +55,17 @@ function Portfolio() {
             execução de scripts e testes funcionais.
           </p>
 
+          <br />
+
+          <p>
+            Atualmente estou no último ano da faculdade de Engenharia de Software
+            e busco oportunidades na área de desenvolvimento web.
+            Possuo conhecimento em <strong>Spring Boot</strong>, <strong>React</strong>,
+            <strong>PostgreSQL</strong> e <strong>Java orientado a objetos</strong>.
+            Meu objetivo é aplicar esses conhecimentos em projetos desafiadores,
+            contribuindo para soluções inovadoras e escaláveis.
+          </p>
+
         </div>
       </section>
     </div>
