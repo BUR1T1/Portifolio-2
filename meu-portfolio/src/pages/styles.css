@@ -128,3 +128,40 @@ nav ul li a:hover {
     font-size: 17px;
 }
 
+
+@media (max-width: 900px) {
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        height: 50vh;
+        flex: none;
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+
+    .hero-content {
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    nav {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-bottom: 40px;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .header-text h1 {
+        font-size: 32px;
+    }
+
+}

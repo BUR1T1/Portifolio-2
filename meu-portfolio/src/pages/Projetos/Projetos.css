@@ -54,3 +54,24 @@
     background: #e59800;
     color: #000000,;
   }
+
+
+  /* ================= RESPONSIVO ================= */
+
+@media (max-width: 900px) {
+
+  .projeto {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .projeto-descricao h2 {
+    font-size: 26px;
+  }
+
+  .projeto-info img {
+    max-width: 300px;
+  }
+
+}

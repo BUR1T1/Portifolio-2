@@ -118,3 +118,49 @@
     color: #e59800;
     box-shadow: 0 0 15px rgba(229, 152, 0, 0.2);
 }
+
+/* ================= TIMELINE RESPONSIVA ================= */
+
+@media (max-width: 900px) {
+
+  .timeline::after {
+    left: 20px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+  }
+
+  .timeline-item::after {
+    left: 8px;
+    right: auto;
+  }
+
+
+  @media (max-width: 480px) {
+
+  .timeline-content {
+    padding: 20px;
+  }
+
+  .timeline-title {
+    font-size: 28px;
+  }
+
+  .timeline-content h3 {
+    font-size: 18px;
+  }
+
+  .timeline-content h4 {
+    font-size: 14px;
+  }
+
+}
+}
