@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import img from "../assets/newimg.png";
+import img from "../img/newimg.png";
 
 function Portfolio() {
   return (
