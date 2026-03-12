@@ -21,11 +21,6 @@ function Portfolio() {
                 Olá, eu sou <br />
                 <span>Otavio Caetano Ribeiro</span>
               </h1>
-
-              <p className="skills">
-                Java • Spring Boot • JavaFX • Spring Security • PostgreSQL •
-                microserviços • React • Angular • JavaScript
-              </p>
             </div>
 
           </div>
@@ -60,8 +55,11 @@ function Portfolio() {
           <p>
             Atualmente estou no último ano da faculdade de Engenharia de Software
             e busco oportunidades na área de desenvolvimento web.
-            Possuo conhecimento em <strong>Spring Boot</strong>, <strong>React</strong>,
-            <strong>PostgreSQL</strong> e <strong>Java orientado a objetos</strong>.
+            Possuo conhecimento em <strong>Java</strong>, <strong>Spring Boot</strong>,
+            <strong>JavaFX</strong>, <strong>Spring Security</strong>,
+            <strong>PostgreSQL</strong>, <strong>Microserviços</strong>,
+            <strong>React</strong>, <strong>Angular</strong> e <strong>JavaScript</strong>,
+            além de experiência com práticas de programação orientada a objetos.
             Meu objetivo é aplicar esses conhecimentos em projetos desafiadores,
             contribuindo para soluções inovadoras e escaláveis.
           </p>
