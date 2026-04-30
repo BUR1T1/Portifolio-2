@@ -48,34 +48,69 @@ function Projetos() {
   ];
 
   return (
-    <section style={{ padding: "120px 10%", backgroundColor: "#1a1a1a" }}>
-      <h2 style={{ fontSize: "38px", marginBottom: "60px", color: "#fff" }}>Projetos</h2>
+    <section style={{ padding: "120px 10%", backgroundColor: "#0a0a0a" }}>
+      <h2 style={{ fontSize: "48px", marginBottom: "20px", color: "#fff", fontWeight: "800", textAlign: "center", letterSpacing: "-1px" }}>Projetos</h2>
+      <div style={{ textAlign: "center", marginBottom: "80px", width: "80px", height: "4px", background: "linear-gradient(90deg, #e59800, #ff6b35)", margin: "0 auto 80px" }}></div>
 
-      <div style={{ display: "flex", flexDirection: "column", gap: "100px" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "120px" }}>
         {listaProjetos.map((projeto, index) => (
           <div 
             key={projeto.id} 
+            className="projeto"
             style={{
               display: "flex",
-              gap: "60px",
+              gap: "80px",
               alignItems: "center",
               flexDirection: index % 2 === 0 ? "row" : "row-reverse",
               flexWrap: "wrap"
             }}
           >
-            <div style={{ flex: "1 1 400px" }}>
-              <h3 style={{ fontSize: "28px", marginBottom: "20px", color: "#e59800" }}>{projeto.titulo}</h3>
-              <p style={{ color: "#ffffff", lineHeight: "1.8", marginBottom: "15px" }}>{projeto.descricao}</p>
-              <p style={{ color: "#ff8400", fontSize: "14px", fontStyle: "italic" }}>
-                <strong>Tecnologias:</strong> {projeto.tecnologias}
-              </p>
-              <div style={{ display: "flex", gap: "20px", marginTop: "30px" }}>
-                <a href={projeto.linkRepo} target="_blank" rel="noopener noreferrer" style={botaoEstilo}>Repositório</a>
-                <a href={projeto.linkRef} style={botaoEstilo}>Referência</a>
+            <div style={{ flex: "1 1 400px" }} className="projeto-descricao">
+              <h3 style={{ fontSize: "36px", marginBottom: "20px", color: "#e59800", fontWeight: "800", letterSpacing: "-0.5px" }}>{projeto.titulo}</h3>
+              <p style={{ color: "#d0d0d0", lineHeight: "1.8", marginBottom: "20px", fontSize: "16px" }}>{projeto.descricao}</p>
+              
+              <div className="projeto-tech" style={{ display: "flex", flexWrap: "wrap", gap: "10px", marginBottom: "30px" }}>
+                {projeto.tecnologias.split(", ").map((tech, idx) => (
+                  <span key={idx} className="tech-tag" style={{ 
+                    display: "inline-block",
+                    padding: "6px 14px",
+                    background: "rgba(229, 152, 0, 0.15)",
+                    border: "1px solid rgba(229, 152, 0, 0.4)",
+                    borderRadius: "20px",
+                    color: "#e59800",
+                    fontSize: "13px",
+                    fontWeight: "600"
+                  }}>
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div style={{ display: "flex", gap: "16px" }} className="links">
+                <a href={projeto.linkRepo} target="_blank" rel="noopener noreferrer" style={{ 
+                  textDecoration: "none",
+                  padding: "12px 28px",
+                  border: "2px solid #e59800",
+                  color: "#e59800",
+                  borderRadius: "6px",
+                  fontWeight: "600",
+                  fontSize: "14px",
+                  transition: "all 0.3s ease"
+                }}>Repositório</a>
+                <a href={projeto.linkRef} target="_blank" rel="noopener noreferrer" style={{ 
+                  textDecoration: "none",
+                  padding: "12px 28px",
+                  border: "2px solid rgba(229, 152, 0, 0.4)",
+                  color: "#d0d0d0",
+                  borderRadius: "6px",
+                  fontWeight: "600",
+                  fontSize: "14px",
+                  transition: "all 0.3s ease"
+                }}>Referência</a>
               </div>
             </div>
 
-            <div style={{ flex: "1 1 400px", maxWidth: "600px", width: "100%" }}>
+            <div style={{ flex: "1 1 400px", maxWidth: "600px", width: "100%" }} className="projeto-info">
               <Swiper
                 modules={[Navigation, Pagination, Autoplay, EffectFade]}
                 effect="fade"
